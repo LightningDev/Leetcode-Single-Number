@@ -1,30 +1,25 @@
 # Leetcode Single Number
 
-Challenge link: https://leetcode.com/problems/single-number/
+Challenge link: https://leetcode.com/problems/single-number-ii/
 
-Given a ****non-empty**** array of integers `nums`, every element appears twice except for one. Find that single one.
+Given an integer array `nums` where every element appears ****three times**** except for one, which appears ****exactly once****. Find the single element and return it.
 
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 
 
 #### Example 1: ####
 ```sh
-Input: nums = [2,2,1]
-Output: 1
+Input: nums = [2,2,3,2]
+Output: 3
 ```
 #### Example 2: ####
 ```sh
-Input: nums = [4,1,2,1,2]
-Output: 4
-```
-#### Example 3: ####
-```sh
-Input: nums = [1]
-Output: 1
+Input: nums = [0,1,0,1,0,1,99]
+Output: 99
 ```
 
 #### Constraints: ####
 
-- ```sh 1 <= nums.length <= 3 * 104 ```
-- ```sh -3 * 104 <= nums[i] <= 3 * 104 ```
-- Each element in the array appears twice except for one element which appears only once.
+- ` 1 <= nums.length <= 3 * 10^4 `
+- ` -2^31 <= nums[i] <= 2^31 - 1 `
+- Each element in `nums` appears exactly ****three times**** except for one element which appears ****once****.
