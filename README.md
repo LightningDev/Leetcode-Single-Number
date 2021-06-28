@@ -1,4 +1,4 @@
-# Leetcode-Single-Number
+# Leetcode Single Number
 
 Challenge link: https://leetcode.com/problems/single-number/
 
